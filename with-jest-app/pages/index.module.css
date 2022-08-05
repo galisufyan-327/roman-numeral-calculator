@@ -85,3 +85,9 @@
     flex-direction: column;
   }
 }
+
+.formInput{
+  margin-left: 5px;
+  padding: 10px;
+}
+
