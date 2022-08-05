@@ -17,5 +17,13 @@
 .formInput{
   margin-left: 5px;
   padding: 10px;
+  outline: none;
+  border: 1px solid lightgrey;
 }
 
+.output{
+margin-top: 10px;
+padding: 10px;
+border: 1px solid lightgrey;
+border-radius: 5px;
+}
