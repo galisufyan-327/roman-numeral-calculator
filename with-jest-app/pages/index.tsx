@@ -1,12 +1,15 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import {useState} from 'react'
-
+import { int2roman } from './Int2Romant'
 
 import styles from '@/pages/index.module.css'
 
 export default function Home() {
-  const [integer,setInteger]=useState(0)
+
+  const [roman,setRoman]=useState('')
+
+
   return (
 
     <div className={styles.container}>
@@ -17,8 +20,8 @@ export default function Home() {
       <h1>Welcome to Integer to Roman Calculator</h1>
       <form action="">
           <label htmlFor="">Enter Integer :</label>
-          <input onChange={(e: any)=>{setInteger(e.target.value)}} className={styles.formInput} type="text" value={integer} />
-          <h6>{integer}</h6>
+          <input onChange={(e: any)=>{setRoman(int2roman(e.target.value))}} className={styles.formInput} type="text"  />
+          <h6>{roman}</h6>
          </form>
     </div>
   )
