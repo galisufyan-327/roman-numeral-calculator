@@ -1,29 +1,43 @@
-# Next.js + Jest
+# Integer to Roman Numeral Calculator
 
-This example shows how to configure Jest to work with Next.js.
+This application take integers as input and convert them into corresponding roman numerals
 
-This includes Next.js' built-in support for Global CSS, CSS Modules and TypeScript.
 
 ## How to Use
 
-Quickly get started using [Create Next App](https://github.com/vercel/next.js/tree/canary/packages/create-next-app#readme)!
+```bash
+Clone Repository
+```
+
 
 In your terminal, run the following command:
 
+
+
 ```bash
-npx create-next-app --example with-jest with-jest-app
+yarn install
 ```
 
+Or
+
+
 ```bash
-yarn create next-app --example with-jest with-jest-app
+npm install
 ```
 
+## Run App
+
+#### For development 
 ```bash
-pnpm create next-app --example with-jest with-jest-app
+npm dev
 ```
 
-## Run Jest Tests
+#### For Production
+```bash
+npm build
+```
+and
 
 ```bash
-npm test
+npm start
 ```
