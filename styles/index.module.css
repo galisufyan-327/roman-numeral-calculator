@@ -14,16 +14,22 @@
   }
 }
 
-.formInput{
+.formInput {
   margin-left: 5px;
   padding: 10px;
   outline: none;
   border: 1px solid lightgrey;
 }
 
-.output{
-margin-top: 10px;
-padding: 10px;
-border: 1px solid lightgrey;
-border-radius: 5px;
+.output {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid lightgrey;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.error {
+  color: rgb(184, 43, 43);
+  font-size: 12px;
 }

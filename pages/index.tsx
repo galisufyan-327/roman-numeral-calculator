@@ -1,15 +1,14 @@
 import Form from './Form'
-import styles from '@/pages/index.module.css'
+import styles from '@/styles/index.module.css'
 
-export default function Home() {
-
-
+function Home() {
+  
 
   return (
-
     <div className={styles.container}>
-      <Form/>
-        
+      <Form />
     </div>
   )
 }
+
+export default Home;

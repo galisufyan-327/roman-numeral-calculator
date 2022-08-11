@@ -6,9 +6,9 @@ describe('Home', () => {
     render(<Home />)
 
     const heading = screen.getByRole('heading', {
-      name: /welcome to next\.js!/i,
+      name: 'Welcome to Integer to Roman Calculator',
     })
 
-    expect(heading).toBeInTheDocument()
+    expect(heading).toBeVisible()
   })
 })
